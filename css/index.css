@@ -1,0 +1,43 @@
+.header {
+  height: 140px;
+}
+.header .nav-link {
+  color: #000;
+}
+.header .logo {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+.content-page {
+  height: 700px;
+  background-image: url("../img/i1.jpg");
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.text-box {
+  height: 300px;
+  width: 70%;
+}
+.text-box p {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.text-box small {
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.mybtn {
+  border: 1px solid #fff;
+  background: none;
+  width: 150px;
+  padding: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer {
+  height: 100px;
+}
