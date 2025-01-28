@@ -60,3 +60,19 @@
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 5px;
 }
+.portfolio-title {
+  height: 100px;
+}
+.portfolio-title h1 {
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.portfolio-content {
+  height: 500px;
+}
+.p-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
