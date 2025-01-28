@@ -41,3 +41,22 @@
 .footer {
   height: 100px;
 }
+.about-container {
+  height: 800px;
+  background-color: #eff3f6;
+}
+#abtimg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#about-content {
+  height: 600px;
+  width: 80%;
+}
+#about-content h1 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 5px;
+}
