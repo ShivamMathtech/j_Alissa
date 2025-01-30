@@ -67,6 +67,14 @@
             $("#showpages").html(response);
           });
         });
+        $("#blogclick").click(function () {
+          $.ajax({
+            method: "GET",
+            url: "./blog.html",
+          }).then(function (response) {
+            $("#showpages").html(response);
+          });
+        });
       });
     </script>
   </head>
@@ -96,7 +104,9 @@
                 <li class="nav-item">
                   <a href="#books" class="nav-link" id="bookclick">Books</a>
                 </li>
-                <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                <li class="nav-item">
+                  <a href="#blog" class="nav-link" id="blogclick">Blog</a>
+                </li>
                 <li class="nav-item">
                   <a href="" class="nav-link">Client Albums</a>
                 </li>

@@ -109,3 +109,40 @@
 .book-text .mybtn {
   border: 1px solid #000;
 }
+.blog-container {
+  background-color: #f0f3f6;
+}
+.card {
+  height: 350px;
+  width: 95%;
+}
+.card img {
+  height: 350px;
+  width: 100%;
+}
+.user-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.user-circle img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.card-title small {
+  font-size: 12px;
+  font-weight: 100;
+}
+.text-h1 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.card-text-main {
+  height: 200px;
+}
+.card-footer {
+  background-color: transparent;
+}
