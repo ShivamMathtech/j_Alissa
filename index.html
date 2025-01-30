@@ -83,6 +83,14 @@
             $("#showpages").html(response);
           });
         });
+        $("#contactclick").click(function () {
+          $.ajax({
+            method: "GET",
+            url: "./contact.html",
+          }).then(function (response) {
+            $("#showpages").html(response);
+          });
+        });
       });
     </script>
   </head>
@@ -121,7 +129,9 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Contact</a>
+                  <a href="#contact" class="nav-link" id="contactclick"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>

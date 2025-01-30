@@ -163,3 +163,29 @@
   width: 100%;
   object-fit: fill;
 }
+.contact-container {
+  height: 800px;
+  background-color: #f0f3f6;
+}
+.contact-container img {
+  height: 800px;
+  width: 100%;
+  object-fit: fill;
+}
+.form-container {
+  height: 90%;
+  width: 80%;
+}
+.form-container h1 {
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+input[type="text"] {
+  background-color: transparent;
+  border: 1px solid #000;
+}
+textarea[name="text"] {
+  background-color: transparent;
+  border: 1px solid #000;
+}
